@@ -1,0 +1,27 @@
+{
+    "name": "micogian/add_navbar_links",
+    "type": "phpbb-extension",
+    "description": "Aggiunge links personalizzati nella navbar index",
+    "homepage": "http://www.actaplantarum.org",
+    "version": "1.0.1",
+    "time": "2018-12-13",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Micogian",
+            "email": "giannidose@tin.it",
+            "homepage": "http://www.altervista.giannidose.it/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "display-name": "Add Navbar Links",
+        "soft-require": {
+             "phpbb/phpbb": "3.2.*@dev"
+        }
+    }
+}
